@@ -42,3 +42,38 @@ function currentLine(line){
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+function currentLine(line){
+  if(!line.length) {
+    return "The line is currently empty.";
+  }
+    var nameAndNumber = [];
+    for (var i = 0; i < line.length; ++i){
+      nameAndNumber.push(i+1 + ". " line[i]);
+    }
+    return 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
