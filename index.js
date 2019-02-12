@@ -61,7 +61,8 @@ function currentLine(line){
     for (var i = 0; i < line.length; ++i){
       nameAndNumber.push(i+1 + ". " line[i]);
     }
-    return 
+    console.log("The line is currently: " + nameAndNumber)
+    return "The line is currently: " + nameAndNumber
 }
 
 
